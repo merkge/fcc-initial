@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+  <h1>Multimedia Player</h1>
+  <section>
+    <h2>Keep On Breakin My Heart</h2>
+      <audio controls
+             aria-label="The song is Keep on Breaking My Heart">
+        <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"    
+                type="audio/mp3"
+                aria-label="The song is Keep on Breaking My Heart">
+      </audio>
+  </section> 
+
+  <section>
+    <h2>Cat Stevens Video</h2>
+      <video controls width="320" height="250>
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" 
+        type="video/webm">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" 
+        type="video/mp4">
+        
+        <track
+            label="English"
+            kind="subtitles"
+            srclang="en"
+            src="https://raw.githubusercontent.com/mdn/learning-area/main/html/multimedia-and-embedding/video-and-audio-content/simple-webvtt-example.vtt"
+            default />
+        
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+  </section>
+
+  <section> 
+    <h2>Transcript</h2>
+      <p>This is the transcript of the Cat Stevens Video.
+      </p>     
+
+</body>
+
+</html>

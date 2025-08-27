@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+
+<!-- Using internal CSS below b/c bug in freecodecamp project won't allow external CSS paddings,margins,footer. Note that inline CSS also worked for padding. Also note that it is REQUIRED TO HAVE NO COMMA separating the two values in both padding and margin shorthands (first value is top/bottom, second is right/left).-->
+  <style>
+    body {
+      padding: 50px 0;
+      margin: 0 auto; /*comma prohibited*/
+      width: 80vw;     
+      min-height: calc(100vh - 100px)
+    } /*spaces required beside operators*/
+    header {
+      text-align: center; 
+      /*center img by ctr-ing container */
+    }
+    hr {
+      width: 99%;
+    }
+    section {
+      width: 32%; 
+      display: inline-grid;
+      justify-content: space-around; 
+    }  
+    footer {
+      text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <img class=pet-rock-pic"
+         src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg">
+    <h1>Pet Rock Festival '24</h1>
+    <p>Join us for the first annual Pet Rock Festival.</p>
+    <p><b>When: </b>August 3rd <b>Where:</b> Boulder Park</p>
+
+    <hr> 
+  </header>
+
+  <main>
+  <!--<div class="container"> --> 
+  <section class="left-col">
+    <h2>Festival Highlights</h2>
+    <ul>
+      <li>Pet Rock Obedience Shows</li>
+      <li>Best Dressed Pet Rock Contest</li>
+      <li>Pet Rock Uphill Racing</li>
+  </section> 
+
+  <section class="center-col">
+    <h2>Special Guests</h2>
+    <ul>
+      <li>John Gravel</li>
+      <li>Wendy Cobblestone</li>
+      <!--<li>Barney Rubble</li>  needed this when using inline-block cause it lowered heading of center block-->
+    </ul>
+  </section>
+
+  <section class="right-col">
+    <h2>Food Trucks</h2>
+    <ul>
+      <li>Rock 'n' Roll Tacos</li>
+      <li>Granite Grill</li>
+      <li>Stone Cold Smoothies</li>
+  </section>
+<!--</div>  -->
+  <hr> 
+
+</main>
+</body>
+<!-- COPYRIGHT in HTML =>  &copy;   -->  
+<footer>
+&copy; 2025 Pet Rock Festival
+</footer>  
+
+</html>

@@ -1,0 +1,11 @@
+.blog-post-card {
+  background: white;
+  border-radius: 5px; 
+  width: 50px;
+  text-align: center;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid black;
+}

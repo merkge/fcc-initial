@@ -1,0 +1,54 @@
+input:focus, textarea:focus {
+  border-color: yellow;
+  border-width: 5px;
+}
+
+input:invalid, select:invalid {
+  border-color: red;
+  border-width: 5px;
+}
+textarea:invalid {
+  border-color: red;
+  border-width: 5px;
+}
+input:valid, select:valid {
+  border-color: green;
+  border-width: 5px;
+}
+textarea:valid {
+  border-color: green;
+  border-width: 5px;
+}
+button:hover {
+  background-color: purple;
+}
+input:hover, select:hover, textarea:hover {
+  border-color: cyan;
+  border-width: 5px;
+}
+.radio-group:checked {
+  border-color: magenta;
+  border-width: 5px
+}
+.radio-group:checked {
+  border-color: yellow;
+  border-width: 5px;
+}
+.radio-group input[type="radio"]:checked {
+  border-color: brown;
+  border-width: 5px
+}
+.radio-group input[type="radio"]:checked {
+  background-color: brown;
+  }
+  .radio-group input[type="radio"]:checked {
+  box-shadow: 0 0 10px 5px orange;
+}
+.radio-group input[type="radio"]:checked + label {
+  color: purple;
+  border-width: 5px
+}
+input:first-of-type {
+  border-color: chartreuse;
+  border-width: 5px;
+}

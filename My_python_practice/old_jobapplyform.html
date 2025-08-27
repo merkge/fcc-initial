@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+          href="jobapplyform.css">
+    <title>Job Application Form</title>
+</head>
+<body>
+<div class="container"
+  <form post="get">
+    <input id="name"
+           type="text"   
+           name="name"
+           required
+           placeholder="Enter your name">
+    <label for="name" 
+           type="text">Full Name:</label>  
+    <input type="email" 
+           id="email"
+           name="email"
+           required
+           placeholder="Enter your email">
+    <label for="email" 
+           type="email">Email:</label>
+                   
+             
+      <select id="position">
+        <option value="select-position" 
+                selected>Select a position</option>
+        <option value="developer">Developer</option> 
+        <option value="designer">Designer</option> 
+        <option value="manager">Manager</option> 
+      </select>  
+
+
+
+      <fieldset class="radio-group"> 
+        <legend>Availability</legend> 
+
+        <!--link radio opts by same "name" in "input(s)"-->
+        
+        <label for="ft-opt">Full-Time</label> 
+        <input id="ft-opt"
+               type="radio"
+               name="availability">
+               <!--same label(for & input(id "explicit"-->
+        <label for="pt-opt">Part-Time</label> 
+        <input id="pt-opt"
+               type="radio"
+               name="availability">       
+      </fieldset>
+
+      <textarea id="message">
+      </textarea>
+
+      <button type="submit">
+              Submit Application</button>       
+
+               
+
+  </form>                 
+</div>                           
+</body>
+</html>
